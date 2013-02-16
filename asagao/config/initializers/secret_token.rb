@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Asagao::Application.config.secret_token = '58298c08a36ac8ab342f787e93ca24d383e233c2ea264d59c29aee49566aab0d6cfdcbc8d0a03136a148b3a6142baad006dfda6c68577bdbe2a880ee742fd015'
+Asagao::Application.config.secret_token = 'e38f936cb353c7446774200c6df4b002e188cf038b286257d20267d22307a4885ea790ab3fdd0e7b5163cefe61f400c1fedaf5a552f4f74f5eaf2459f4c53ad5'
