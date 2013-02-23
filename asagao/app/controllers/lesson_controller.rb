@@ -30,6 +30,50 @@ class LessonController < ApplicationController
     render text: @message
   end
 
+  def step8
+    @price = (2000 * 1.05).floor
+  end
+
+  def step9
+    @price = 1000
+    render "step8"
+  end
+
+  def step10
+    @comment = "<script>alert('危険!')</script>こんにちは"
+  end
+
+  def step11
+    @comment = "<strong>安全なHTML</strong>"
+  end
+
+  def step12
+    @population = 704414
+    @surface = 141.31
+  end
+
+  def step13
+    @time = Time.now
+  end
+
+  def step14
+    @population = 127767944
+  end
+
+  def step15
+    @message = "ごきげんいかが?\nRailsの勉強頑張りましょう"
+  end
+
+  def step18
+    @zaiko = 10
+  end
+
+  def step19
+    @items = {"フライパン" => 2680,"ワイングラス" => 2550,
+      "ペッパーミル" => 4515, "ビーラー" => 945}
+  end
+
+
   private
   def do_before
     @message = "こんにちは"
